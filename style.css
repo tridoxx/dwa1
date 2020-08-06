@@ -1,0 +1,59 @@
+
+
+#container{
+
+     width: 100%;
+     height: 30%;
+     
+}
+
+
+header{
+   
+    background:url(img/header.jpg); 
+    width: 100%;
+     height: 30%;
+}
+
+nav{
+padding-top: 20px;
+
+}
+
+#navegacion{
+display: inline;
+padding-top: 10px;
+}
+
+li{
+
+ display: inline;
+ padding-left: 20px;
+ padding-top: 5px;
+}
+a{
+     color: white;
+     text-decoration: none;
+}
+
+#botton-sing{
+
+color: white;
+border-radius: 66px;
+border-color: white;
+background-color: transparent;
+width: 120px;
+height: 30px;
+}
+
+#buscar{
+     color: white;
+border-radius: 66px;
+border-color: transparent;
+background-color:rgba(216,216,216,0.5);
+
+width: 150px;
+height: 30px;
+text-align: center;
+}
+
