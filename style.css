@@ -1,5 +1,10 @@
 
-
+* {
+     margin: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+ 
 #container{
 
      width: 100%;
@@ -17,6 +22,8 @@ header{
 
 nav{
 padding-top: 20px;
+width: 90%;
+
 
 }
 
@@ -28,7 +35,7 @@ padding-top: 10px;
 li{
 
  display: inline;
- padding-left: 20px;
+ padding-right: 50px;
  padding-top: 5px;
 }
 a{
@@ -44,16 +51,29 @@ border-color: white;
 background-color: transparent;
 width: 120px;
 height: 30px;
+
+}
+#nombre{
+
+width: 100px;
+height: 100px;
+padding-right: 10px;
 }
 
 #buscar{
-     color: white;
 border-radius: 66px;
 border-color: transparent;
-background-color:rgba(216,216,216,0.5);
-
-width: 150px;
+background-color:rgba(216,216,216,0.2);
+width: 200px;
 height: 30px;
-text-align: center;
+text-align: left;
+color: white;
+
+
+}
+#logo{
+     width: 200px;
+     height: 30px;
+
 }
 
