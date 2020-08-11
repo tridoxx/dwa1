@@ -387,11 +387,11 @@ h4{
       height: 30px;
      }
 #evento{
-     width: 815px;
+     width: 56%;
      height: 308px;
      position: absolute;
-     top: 1150px;
-     left: 470px;
+     top: 240%;
+     left: 33%;
        
     box-shadow: 4px 6px 14px -2px rgb(209,209,209);
     background-color: white;
@@ -401,18 +401,18 @@ h4{
 #evento {
 
      display: inline-flex;
-     height: 320px;
-     padding-left: 60px;
-     padding-right: 30px;
+     height: 63%;
+     padding-left: 2%;
+     padding-right: 4%;
      display: inline-block;
      
 }
 
 
 #evento li{
-     padding-left: 40px;
-     width: 90px;
-     height: 50px;
+     padding-left: 10%;
+     width: 17%;
+     height: 0%;
 }
 #boton {
 
