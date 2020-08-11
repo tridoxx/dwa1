@@ -5,24 +5,18 @@
      font-family: sans-serif;
  }
  
-#container{
-
-     width: 100%;
-     height: 30%;
-     
-}
-
-
-header{
+ header{
    
-    background:url(img/header.jpg); 
+    background:url(img/header.jpg);
+    background-size: cover;
     width: 100%;
      height: 30%;
+     padding-left: 40px;
 }
 
 nav{
-padding-top: 20px;
-width: 90%;
+padding-top: 30px;
+width: 100%;
 
 
 }
@@ -34,9 +28,18 @@ padding-top: 10px;
 
 li{
 
- display: inline;
- padding-right: 50px;
+ display: inline-flex;
+ padding-left: 70px;
  padding-top: 5px;
+}
+
+li #radio{
+     padding-right: 100px;
+
+}
+li #botton-sing{
+     padding:0px;
+
 }
 a{
      color: white;
@@ -53,6 +56,7 @@ width: 120px;
 height: 30px;
 
 }
+
 #nombre{
 
 width: 100px;
@@ -64,16 +68,363 @@ padding-right: 10px;
 border-radius: 66px;
 border-color: transparent;
 background-color:rgba(216,216,216,0.2);
-width: 200px;
+width: 250px;
 height: 30px;
-text-align: left;
 color: white;
+}
 
+#buscar::placeholder{
+     color: white;
+     
+     
 
 }
 #logo{
-     width: 200px;
-     height: 30px;
+     padding-left: 40px;
+     width: 150px;
+     height: 15px;
+}
+
+#espacio1{
+     width: 100%;
+     height: 40px;
 
 }
 
+#espacio5{
+     width: 100%;
+     height: 40px;
+     padding-left: 3%;
+     padding-right: 3%;
+
+
+}
+
+#logo2{
+
+     padding-left: 40px;
+     width: 250px;
+}
+
+
+#logo3{
+
+     width: 100px;
+     border-radius: 10px;
+}
+#logo4{
+     width: 100px;
+}
+
+#botton-generos{
+     border-radius: 66px;
+     border-color: transparent;
+     background-color:rgba(175, 175, 175, 0.39);
+     width: 180px;
+     height: 30px;
+     text-align: center;
+     color: white;
+     display: list-item;
+     margin-bottom: 10px;
+}
+
+#contenedor{
+     padding-left: 5%;
+     display: inline-block;
+     
+}
+
+#contenedor1{
+     padding-left: 10%;
+     display: inline-flex;
+     float: right;
+     
+}
+
+#textoencabezado{
+     padding-left: 40px;
+     width: 42%;
+     height: 30%;
+}
+
+h3{
+
+     color: white;
+     padding-bottom: 20px;
+     
+}
+
+p{
+     color: white;
+     font-size: 13.5px;
+}
+
+#canciones2{
+     height: 250px;
+     width: 140px;
+     background-size: cover;
+     background-image: url(img/ruido.svg);
+     
+}
+#canciones{
+     
+     padding-right: 26px;
+     display: flex;
+     padding-top: 50px;
+}
+#canciones3{
+     
+     padding-right: 26px;
+     padding-top: 70px;
+     display: inline-flex;
+     
+}
+
+#texto-post{
+     padding-top: 26px;
+     padding-left: 20px;
+
+}
+
+#menu2{
+     display: inline-flex;
+     padding-left: 40px;
+     padding-top: 5px;
+}
+article{
+
+     padding-top: 60px;
+     width: 100%;
+     height: 30%;
+}
+
+section{
+ float: left;
+ width: 70%;
+}
+
+aside{
+
+     float: right;
+     width: 30%;
+     height: 500px;
+}
+
+#aside-albumes{
+
+     text-align: center;
+     padding-top: 70px;
+}
+
+h4{
+     color: gray;
+}
+
+#topsong{
+     padding-right: 70px;
+     padding-left: 0;
+     font-size: 20px;
+
+}
+#topsong1{
+     padding-left: 0;
+     padding-right: 50px;
+
+}
+#imagenalbumes{
+     width: 100%;
+     height: 80%;
+
+}
+#albumesdivison{
+     padding-top: 40px;
+     width: 100%;
+     height: 100%;
+
+}
+
+#albumesgrupo{
+
+     display: inline-flex;
+     padding-bottom: 8px;
+     width: 80%;
+}
+
+#palbumes{
+
+     color: black;
+}
+
+
+.data {
+     font: 12px Arial;
+      border-radius:3px; 
+      
+
+     }
+.data table { 
+          text-align: center;
+     } 
+     
+
+ .data table th { 
+ padding: 13px 40px; }
+
+ .data table td{
+     padding-bottom: 7px;
+     padding-top: 6px;
+
+ }
+
+ .data #pistas{
+      width: 50px;
+      height: 50px;
+ }
+
+
+.data table thead th { 
+     color:#B0B0B0; 
+     font-size: 14px;
+      font-weight: bold;
+      }
+
+.data  tbody tr:first-child {
+      border-radius:  13px;
+      -webkit-box-shadow: 4px 6px 14px -2px rgba(209,209,209,0.84);
+     -moz-box-shadow: 4px 6px 14px -2px rgba(209,209,209,0.84);
+     box-shadow: 4px 6px 14px -2px rgba(209,209,209,0.84);
+      
+     }
+
+.data table tbody td {
+      border-bottom: 1px solid #C3CED4;
+      width: 70px;
+
+}
+#textonegrita{
+
+     font-size: 15px;
+     text-align: center;
+     color:  rgba(63, 66, 57,1);
+}
+
+#play{
+     padding-left: 20px;
+}
+
+#corazon{
+     width: 25px;
+
+}
+
+#footerid{
+     display: inline-block;
+     width: 100%;
+     height: 450px;
+     padding-top: 80px;
+}
+
+#guitarrista{
+
+     width: 60%;
+     height: 80%;  
+}
+
+#footerback{
+     padding-left: 10%;
+     width: 90%;
+     height: 80%;
+     display: inline-flex;
+}
+
+#contenedorfooter{
+     width: 40%;
+     height: 80%;
+     border-top-right-radius: 13px;
+     border-bottom-right-radius: 13px;
+     display: inline-flex;
+
+    
+     -webkit-box-shadow: 4px 6px 14px -2px rgba(209,209,209,0.84);
+    -moz-box-shadow: 4px 6px 14px -2px rgba(209,209,209,0.84);
+    box-shadow: 4px 6px 14px -2px rgba(209,209,209,0.84);
+
+}
+
+#contenedorfooter2{
+     
+     display: inline-flex;
+     width: 95%;
+     height: 10%;
+
+}
+
+#iconos{
+    
+     transform: rotate(90deg);
+     height: 10px;
+     float: bottom;
+}
+#iconos2{
+     transform: rotate(180deg);
+
+}
+
+#lista-footer{
+     display: inline-flex;
+     width: 100%;
+     padding-top: 10px;
+     }
+     
+#lista-footer  li{
+     
+      padding-left: 20px;
+      width: 61px;
+      height: 30px;
+     }
+#evento{
+     width: 700px;
+     height: 240px;
+     position: absolute;
+     top: 1150px;
+     left: 470px;
+       
+     -webkit-box-shadow: 4px 6px 14px -2px rgb(209,209,209);
+    -moz-box-shadow: 4px 6px 14px -2px rgb(209,209,209);
+    box-shadow: 4px 6px 14px -2px rgb(209,209,209);
+    background-color: white;
+    border-radius: 5%;
+}  
+
+#evento div{
+
+     display: inline-flex;
+     width: 100%;
+     
+}
+#evento li{
+     padding-left: 20px;
+     width: 90px;
+     height: 50px;
+}
+#evento ul{
+display: inline-flex;
+width: 100%;
+height: 100%;
+}
+
+
+.button {
+     font-family: Arial;
+     color: #ffffff;
+     font-size: 20px;
+     padding: 7px;
+     width: 400px;
+     height: 50px;
+     text-decoration: none;
+     -webkit-border-radius: 36px;
+     -moz-border-radius: 36px;
+     border-radius: 36px;
+     border: solid #57cfa5 5px;
+     background: #57cfa5;
+   }
